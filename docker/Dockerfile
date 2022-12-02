@@ -53,8 +53,8 @@ RUN pip3 --no-cache-dir install \
 WORKDIR /tmp/init_install/
 RUN wget https://github.com/Kitware/CMake/releases/download/v3.13.2/cmake-3.13.2.tar.gz
 RUN tar -xzvf cmake-3.13.2.tar.gz
-RUN cd cmake-3.13.2
 
+WORKDIR /tmp/init_install/cmake-3.13.2
 RUN ./bootstrap && make && make install
 
 
