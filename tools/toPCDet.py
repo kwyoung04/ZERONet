@@ -6,8 +6,8 @@ import argparse
 import numpy as np
 from struct import unpack
 
-TRAINSET = 0.8
-VALSET = 0.2
+TRAINSET = 0.9
+VALSET = 0.1
 TESTSET = 0.0
 
 
@@ -143,7 +143,7 @@ def testnpy():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', dest='datasetDir', default='/home/ubuntu/src/OpenPCDet/data/zeron', help='path to directory')
+    parser.add_argument('-d', dest='datasetDir', default='/home/ubuntu/src/OpenPCDet/data/custom', help='path to directory')
 
     args = parser.parse_args()
 
