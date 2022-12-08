@@ -3,16 +3,6 @@ DATA_PATH: 'OpenPCDet/data/custom'
 
 POINT_CLOUD_RANGE: [-32.0, -32.0, -2.0, 32.0, 32.0, 2.0]
 
-#MAP_CLASS_TO_KITTI: {
-#    'Car': 'Car',
-#    'Pedestrian': 'Pedestrian',
-#    'Cyclist': 'BicycleRider',
-#    'a': 'Truck',
-#    'b': 'MotorcyleRider',
-#    'c': 'Unknown',
-#    'd': 'Misc',
-#}
-
 MAP_CLASS_TO_KITTI: {
     'Car': 'Car',
     'Pedestrian': 'Pedestrian',
