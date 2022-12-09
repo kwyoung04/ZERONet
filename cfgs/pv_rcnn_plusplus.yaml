@@ -85,7 +85,7 @@ MODEL:
                 NAME: VectorPoolAggregationModuleMSG
                 NUM_GROUPS: 2
                 LOCAL_AGGREGATION_TYPE: local_interpolation
-                NUM_REDUCED_CHANNELS: 2
+                NUM_REDUCED_CHANNELS: 1
                 NUM_CHANNELS_OF_LOCAL_AGGREGATION: 32
                 MSG_POST_MLPS: [ 32 ]
                 FILTER_NEIGHBOR_WITH_ROI: True
@@ -256,7 +256,7 @@ MODEL:
 
 
 OPTIMIZATION:
-    BATCH_SIZE_PER_GPU: 10
+    BATCH_SIZE_PER_GPU: 14
     NUM_EPOCHS: 80
 
     OPTIMIZER: adam_onecycle
