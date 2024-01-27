@@ -1,5 +1,5 @@
 DATASET: 'CustomDataset'
-DATA_PATH: 'OpenPCDet/data/custom'
+DATA_PATH: '/home/ubuntu/src/ZERONet/data/zeron'
 
 POINT_CLOUD_RANGE: [-32.0, -32.0, -2.0, 32.0, 32.0, 2.0]
 

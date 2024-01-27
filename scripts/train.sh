@@ -1,2 +1,1 @@
-#CUDA_VISIBLE_DEVICES = 0 
-python3 train.py --cfg_file ${CONFIG_FILE}
+CUDA_VISIBLE_DEVICES=7 python3 train.py --cfg_file ${CONFIG_FILE}
